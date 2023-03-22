@@ -21,3 +21,56 @@ Consigli del giorno:
 Ragioniamo come sempre a step.
 Prima la logica in italiano e poi traduciamo in codice.
 */
+
+//creo array di oggetti con le info
+const infoBox = [
+
+    //oggetto1
+    {
+        name: 'Wayne',
+        surname: 'Barnett',
+        job: 'Founder & CEO',
+        profileImg: wayne-barnett-founder-ceo.jpg
+    },
+
+    //oggetto2
+    {
+        name : 'Angela',
+        surname: 'Caroll',
+        job : 'Chief Editor',
+        profileImg : angela-caroll-chief-editor.jpg
+    },
+
+    //oggetto3
+    {
+        name : 'Walter',
+        surname : 'Gordon',
+        job : 'Office Manager',
+        profileImg : walter-gordon-office-manager.jpg
+    },
+    
+    //oggetto4
+    {
+        name : 'Angela',
+        surname : 'Lopez',
+        job : 'Social Media Manager',
+        profileImg : angela-lopez-social-media-manager.jpg
+    },
+
+    //oggetto5
+    {
+        name : 'Scott',
+        surname : 'Estrada',
+        job : 'Developer',
+        profileImg : scott-estrada-developer.jpg
+    },
+
+    //oggetto6
+    {
+        name : 'Barbara',
+        surname : 'Ramos',
+        job : 'Graphic Designer',
+        profileImg : barbara-ramos-graphic-designer.jpg
+    }
+
+];
