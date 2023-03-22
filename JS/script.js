@@ -35,47 +35,64 @@ const infoBox = [
 
     //oggetto2
     {
-        name : 'Angela',
+        name: 'Angela',
         surname: 'Caroll',
-        job : 'Chief Editor',
-        profileImg : 'angela-caroll-chief-editor.jpg'
+        job: 'Chief Editor',
+        profileImg: 'angela-caroll-chief-editor.jpg'
     },
 
     //oggetto3
     {
-        name : 'Walter',
-        surname : 'Gordon',
-        job : 'Office Manager',
-        profileImg : 'walter-gordon-office-manager.jpg'
+        name: 'Walter',
+        surname: 'Gordon',
+        job: 'Office Manager',
+        profileImg: 'walter-gordon-office-manager.jpg'
     },
-    
+
     //oggetto4
     {
-        name : 'Angela',
-        surname : 'Lopez',
-        job : 'Social Media Manager',
-        profileImg : 'angela-lopez-social-media-manager.jpg'
+        name: 'Angela',
+        surname: 'Lopez',
+        job: 'Social Media Manager',
+        profileImg: 'angela-lopez-social-media-manager.jpg'
     },
 
     //oggetto5
     {
-        name : 'Scott',
-        surname : 'Estrada',
-        job : 'Developer',
-        profileImg : 'scott-estrada-developer.jpg'
+        name: 'Scott',
+        surname: 'Estrada',
+        job: 'Developer',
+        profileImg: 'scott-estrada-developer.jpg'
     },
 
     //oggetto6
     {
-        name : 'Barbara',
-        surname : 'Ramos',
-        job : 'Graphic Designer',
-        profileImg : 'barbara-ramos-graphic-designer.jpg'
+        name: 'Barbara',
+        surname: 'Ramos',
+        job: 'Graphic Designer',
+        profileImg: 'barbara-ramos-graphic-designer.jpg'
     }
 
 ];
 
 //ciclo l'array per stampare in console il contenuto
-for (let i = 0; i < infoBox.length; i++){
+for (let i = 0; i < infoBox.length; i++) {
     console.log(infoBox[i]);
+    let profileSpecs = `
+    <div class="col">
+        <div class="card">
+            <img src="./img${infoBox[i].profileImg}" class="card-img-top" alt="${infoBox[i].name}profile">
+                <div class="card-body">
+                    <h5 class="card-title">${infoBox[i].name} ${infoBox[i].surname}</h5>
+                    <p class="card-text">${infoBox[i].job}</p>
+                </div>
+        </div>
+    </div>
+    `;
+    //console.log(profileSpecs);
 };
+
+//template
+
+
+
