@@ -30,7 +30,7 @@ const infoBox = [
         name: 'Wayne',
         surname: 'Barnett',
         job: 'Founder & CEO',
-        profileImg: wayne-barnett-founder-ceo.jpg
+        profileImg: 'wayne-barnett-founder-ceo.jpg'
     },
 
     //oggetto2
@@ -38,7 +38,7 @@ const infoBox = [
         name : 'Angela',
         surname: 'Caroll',
         job : 'Chief Editor',
-        profileImg : angela-caroll-chief-editor.jpg
+        profileImg : 'angela-caroll-chief-editor.jpg'
     },
 
     //oggetto3
@@ -46,7 +46,7 @@ const infoBox = [
         name : 'Walter',
         surname : 'Gordon',
         job : 'Office Manager',
-        profileImg : walter-gordon-office-manager.jpg
+        profileImg : 'walter-gordon-office-manager.jpg'
     },
     
     //oggetto4
@@ -54,7 +54,7 @@ const infoBox = [
         name : 'Angela',
         surname : 'Lopez',
         job : 'Social Media Manager',
-        profileImg : angela-lopez-social-media-manager.jpg
+        profileImg : 'angela-lopez-social-media-manager.jpg'
     },
 
     //oggetto5
@@ -62,7 +62,7 @@ const infoBox = [
         name : 'Scott',
         surname : 'Estrada',
         job : 'Developer',
-        profileImg : scott-estrada-developer.jpg
+        profileImg : 'scott-estrada-developer.jpg'
     },
 
     //oggetto6
@@ -70,7 +70,12 @@ const infoBox = [
         name : 'Barbara',
         surname : 'Ramos',
         job : 'Graphic Designer',
-        profileImg : barbara-ramos-graphic-designer.jpg
+        profileImg : 'barbara-ramos-graphic-designer.jpg'
     }
 
 ];
+
+//ciclo l'array per stampare in console il contenuto
+for (let i = 0; i < infoBox.length; i++){
+    console.log(infoBox[i]);
+};
