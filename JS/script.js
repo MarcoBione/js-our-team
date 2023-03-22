@@ -77,14 +77,14 @@ const infoBox = [
 
 //ciclo l'array per stampare in console il contenuto
 for (let i = 0; i < infoBox.length; i++) {
-    console.log(infoBox[i]);
+    //console.log(infoBox[i]);
     let profileSpecs = `
-    <div class="col">
-        <div class="card">
-            <img src="./img/${infoBox[i].profileImg}" class="card-img-top" alt="${infoBox[i].name}profile">
-                <div class="card-body">
-                    <h5 class="card-title">${infoBox[i].name} ${infoBox[i].surname}</h5>
-                    <p class="card-text">${infoBox[i].job}</p>
+    <div class="col-2 g-4">
+        <div class="card my-color">
+            <img src="./img/${infoBox[i].profileImg}" class="card-img-top d-block" alt="${infoBox[i].name}profile">
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 fw-semibold my-names">${infoBox[i].name} <br> ${infoBox[i].surname}</h5>
+                    <p class="card-text fs-6 my-job-card">${infoBox[i].job}</p>
                 </div>
         </div>
     </div>
@@ -93,6 +93,7 @@ for (let i = 0; i < infoBox.length; i++) {
 
     //stamp into html doc
     document.querySelector('.row').innerHTML += profileSpecs;
+    
 };
 
 

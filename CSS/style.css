@@ -12,3 +12,15 @@
     width: 100%;
     background-color: var(--moonstone);
 }
+
+.my-color{
+    background-color: var(--peach);
+}
+
+.my-job-card{
+    color: var(--delft-blue);
+}
+
+.my-names{
+    color: var(--paynes-gray);
+}
