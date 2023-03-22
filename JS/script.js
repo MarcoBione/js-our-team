@@ -81,7 +81,7 @@ for (let i = 0; i < infoBox.length; i++) {
     let profileSpecs = `
     <div class="col">
         <div class="card">
-            <img src="./img${infoBox[i].profileImg}" class="card-img-top" alt="${infoBox[i].name}profile">
+            <img src="./img/${infoBox[i].profileImg}" class="card-img-top" alt="${infoBox[i].name}profile">
                 <div class="card-body">
                     <h5 class="card-title">${infoBox[i].name} ${infoBox[i].surname}</h5>
                     <p class="card-text">${infoBox[i].job}</p>
@@ -90,9 +90,12 @@ for (let i = 0; i < infoBox.length; i++) {
     </div>
     `;
     //console.log(profileSpecs);
+
+    //stamp into html doc
+    document.querySelector('.row').innerHTML += profileSpecs;
 };
 
-//template
+
 
 
 
