@@ -1,0 +1,14 @@
+:root{
+    --delft-blue: #2b3a67ff;
+    --paynes-gray: #496a81ff;
+    --moonstone: #66999bff;
+    --sage: #b3af8fff;
+    --peach: #ffc482ff;
+}
+
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--moonstone);
+}
